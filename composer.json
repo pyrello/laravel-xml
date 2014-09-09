@@ -1,6 +1,7 @@
 {
     "name": "pyrello/laravel-xml",
-    "description": "",
+    "description": "Adds missing XML features to Laravel",
+    "license": "MIT",
     "authors": [
         {
             "name": "Sean Adams-Hiett",
