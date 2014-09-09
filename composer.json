@@ -1,0 +1,20 @@
+{
+    "name": "pyrello/laravel-xml",
+    "description": "",
+    "authors": [
+        {
+            "name": "Sean Adams-Hiett",
+            "email": "pyrello@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pyrello\\LaravelXml": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
