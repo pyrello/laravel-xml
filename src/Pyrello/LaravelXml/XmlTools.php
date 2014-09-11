@@ -23,7 +23,7 @@ class XmlTools
                 if (is_numeric($key)) {
                     $key = str_singular($xml->getName());
                 }
-                static::arrayToXml($item, $xml->addChild($key));
+                static::encode($item, $xml->addChild($key));
 
             } else {
 
