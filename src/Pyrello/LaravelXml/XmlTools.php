@@ -41,9 +41,14 @@ class XmlTools
         return $xml->asXML();
     }
 
-    public static function decode(SimpleXMLElement $xml, $assoc = false)
+    /**
+     * @param SimpleXMLElement $xml
+     * @return array
+     */
+    public static function decode(SimpleXMLElement $xml)
     {
-        $arr = ($assoc) ? new stdClass() : [];
+        // todo: add option to use stdClass instead of array.
+        $arr = [];
 
         foreach ($xml as $element)
         {
